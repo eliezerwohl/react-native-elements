@@ -345,6 +345,7 @@ class Tooltip extends React.Component<
           visible={isVisible}
           transparent
           onShow={onOpen}
+          supportedOrientations={['landscape', 'landscape-left', 'landscape-right']} 
         >
           {this.renderModalContent()}
         </ModalComponent>
